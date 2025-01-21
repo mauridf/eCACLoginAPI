@@ -21,8 +21,8 @@ O objetivo principal é fornecer um serviço simples que autentique com sucesso 
 
 ## Requisitos
 ### Ferramentas e Bibliotecas
-- **.NET SDK** (versão 6.0 ou superior)
-- **Visual Studio Code** (ou outra IDE de sua preferência)
+- **.NET SDK** (versão 8.0 ou superior)
+- **Visual Studio 2022** (ou outra IDE de sua preferência)
 - **RestSharp** (para requisições HTTP)
 
 ### Dependências
@@ -131,20 +131,3 @@ http://localhost:5000
   - **CertificateLoginService.cs**: Serviço para login com certificado digital.
 - `eCACLoginAPI/Controllers/`
   - **LoginController.cs**: Controlador principal para gerenciar os endpoints de login.
-
----
-
-## Próximos Passos
-- [ ] Adicionar autenticação JWT para proteger os endpoints.
-- [ ] Criar testes unitários e de integração.
-- [ ] Implementar logs detalhados para melhor rastreamento de erros.
-
----
-
-## Contribuição
-Sinta-se à vontade para contribuir com melhorias para o projeto. Faça um fork do repositório, implemente suas mudanças e envie um Pull Request!
-
----
-
-## Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
